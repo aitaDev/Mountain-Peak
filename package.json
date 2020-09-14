@@ -1,12 +1,12 @@
 {
   "name": "find-trainer",
   "version": "1.0.0",
-  "description": "",
+  "description": "A site that helps you find a trainer",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Dan A",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.5.2",
