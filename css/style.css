@@ -1,19 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Roboto+Slab&display=swap");
 body {
-  font-family: "Roboto Slab", serif;
+	font-family: "Roboto Slab", serif;
 }
 .banner {
-  margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 .jumbotron {
-  background-color: rgb(235, 235, 235);
+	background-color: rgb(235, 235, 235);
+	border-radius: 0;
 }
-
+.btn {
+	border-radius: 0;
+}
 .footer {
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 1) 44%,
-    rgba(247, 247, 247, 1) 100%
-  );
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background: linear-gradient(
+		0deg,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(255, 255, 255, 1) 44%,
+		rgba(247, 247, 247, 1) 100%
+	);
+}
+ul li {
+	list-style: none;
 }
